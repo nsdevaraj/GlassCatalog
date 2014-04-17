@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res" >
+            <file
+                name="logo1"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-mdpi/logo1.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="corner"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/corner.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="icon_camera"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/icon_camera.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="icon_city"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/icon_city.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="icon_incident"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/icon_incident.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="icon_shelter"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/icon_shelter.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="indicator_left"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/indicator_left.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="indicator_right"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/indicator_right.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="marker_camera"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/marker_camera.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="marker_city"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/marker_city.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="marker_incident"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/marker_incident.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="marker_shelter"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/drawable-nodpi/marker_shelter.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_screen_slide"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/layout/activity_screen_slide.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="card_text"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/layout/card_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/menu/menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="ButtonBarContainerTheme" >
+                    <attr
+                        name="metaButtonBarStyle"
+                        format="reference" />
+                    <attr
+                        name="metaButtonBarButtonStyle"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="black_overlay" >#66000000
+                </color>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="card_margin" >40px
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="venture" >Venture Ideas
+                </string>
+                <string name="h1" >H1 Solutions
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="glass_voice_prompt" >GTO
+                </string>
+                <string name="title_activity_main" >MainActivity
+                </string>
+                <string name="camera" >Camera
+                </string>
+                <string name="title_activity_pan" >PanActivity
+                </string>
+                <string name="show_compass_voice_trigger" >show a compass
+                </string>
+                <string name="stop" >Stop
+                </string>
+                <string name="title_activity_compass_menu" >CompassMenu
+                </string>
+                <string name="dummy_button" >Dummy Button
+                </string>
+
+                <string-array name="direction_abbreviations" >
+                    <item>
+N
+                    </item>
+                    <item>
+NNE
+                    </item>
+                    <item>
+NE
+                    </item>
+                    <item>
+ENE
+                    </item>
+                    <item>
+E
+                    </item>
+                    <item>
+ESE
+                    </item>
+                    <item>
+SE
+                    </item>
+                    <item>
+SSE
+                    </item>
+                    <item>
+S
+                    </item>
+                    <item>
+SSW
+                    </item>
+                    <item>
+SW
+                    </item>
+                    <item>
+WSW
+                    </item>
+                    <item>
+W
+                    </item>
+                    <item>
+WNW
+                    </item>
+                    <item>
+NW
+                    </item>
+                    <item>
+NNW
+                    </item>
+                </string-array>
+
+                <string name="h2" >H2 Solutions
+                </string>
+
+                <string-array name="spoken_directions" >
+                    <item>
+north
+                    </item>
+                    <item>
+north north east
+                    </item>
+                    <item>
+north east
+                    </item>
+                    <item>
+east north east
+                    </item>
+                    <item>
+east
+                    </item>
+                    <item>
+east south east
+                    </item>
+                    <item>
+south east
+                    </item>
+                    <item>
+south south east
+                    </item>
+                    <item>
+south
+                    </item>
+                    <item>
+south south west
+                    </item>
+                    <item>
+south west
+                    </item>
+                    <item>
+west south west
+                    </item>
+                    <item>
+west
+                    </item>
+                    <item>
+west north west
+                    </item>
+                    <item>
+north west
+                    </item>
+                    <item>
+north north west
+                    </item>
+                </string-array>
+
+                <string name="h3" >H3 Solutions
+                </string>
+                <string name="app_name" >GTO Glassware
+                </string>
+                <string name="dummy_content" >DUMMY\nCONTENT
+                </string>
+                <string name="geolocation" >GeoLocation
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="accelerometer" >Accelerometer
+                </string>
+                <string name="list" >GTO Solutions
+                </string>
+                <string name="glass_voice_trigger" >Show Lab
+                </string>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="ButtonBar" >
+                    <item name="android:paddingLeft">
+2dp
+                    </item>
+                    <item name="android:paddingTop">
+5dp
+                    </item>
+                    <item name="android:paddingRight">
+2dp
+                    </item>
+                    <item name="android:paddingBottom">
+0dp
+                    </item>
+                    <item name="android:background">
+@android:drawable/bottom_bar
+                    </item>
+                </style>
+
+                <style
+                    name="FullscreenTheme"
+                    parent="android:Theme.NoTitleBar" >
+                    <item name="android:windowContentOverlay">
+@null
+                    </item>
+                    <item name="android:windowBackground">
+@null
+                    </item>
+                    <item name="metaButtonBarStyle">
+@style/ButtonBar
+                    </item>
+                    <item name="metaButtonBarButtonStyle">
+@style/ButtonBarButton
+                    </item>
+                </style>
+
+                <style name="ButtonBarButton" />
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="FullscreenTheme"
+                    parent="android:Theme.Holo" >
+                    <item name="android:actionBarStyle">
+@style/FullscreenActionBarStyle
+                    </item>
+                    <item name="android:windowActionBarOverlay">
+true
+                    </item>
+                    <item name="android:windowBackground">
+@null
+                    </item>
+                    <item name="metaButtonBarStyle">
+?android:attr/buttonBarStyle
+                    </item>
+                    <item name="metaButtonBarButtonStyle">
+?android:attr/buttonBarButtonStyle
+                    </item>
+                </style>
+
+                <style
+                    name="FullscreenActionBarStyle"
+                    parent="android:Widget.Holo.ActionBar" >
+                    <item name="android:background">
+@color/black_overlay
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="voice_trigger"
+                path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/main/res/xml/voice_trigger.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/devarajns/Documents/gtoglass/GTOGlass/app/src/debug/res" />
+    </dataSet>
+
+</merger>
